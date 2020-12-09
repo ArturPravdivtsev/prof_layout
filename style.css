@@ -178,6 +178,10 @@ body {
     display: inline-block;
     margin-top: 18px;
 }
+.show-more:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
 .advantages {
     background: #222224;
     height: 341px;
@@ -298,6 +302,19 @@ body {
 }
 .socials {
     display: flex;
+}
+.social a {
+    padding: 0 11px;
+    background-color: #fff;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.social a:hover {
+    background-color: #F16D7F;
+}
+.social a:hover svg {
+    fill: #fff;
 }
 .social:not(:last-child) {
     margin-right: 7px;
