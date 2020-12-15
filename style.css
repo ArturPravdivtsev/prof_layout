@@ -402,3 +402,111 @@ body {
 .pagination__link.active {
     color: #EF5B70;
 }
+
+.product__information {
+    margin-bottom: 63px;
+}
+.product__item-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 777px;
+    background: #F7F7F7;
+}
+.product__item-arrow {
+    width: 47px;
+    height: 47px;
+    background: rgba(42, 42, 42, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product__item-arrow:hover svg {
+    fill: #F16D7F;
+}
+.product__information-wrapper {
+    border: 1px solid #EAEAEA;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+    background: #fff;
+}
+.product__category {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 64px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.product__category::after {
+    content: '';
+    background: #EF5B70;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 63px;
+    height: 3px;
+    bottom: -12px;
+}
+.product__heading h1 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+.product__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    margin-top: 48px;
+    margin-top: 32px;
+}
+.product__delimeter {
+    width: 642px;
+    height: 0;
+    color: #EAEAEA;
+    border-bottom: none;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.product__characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 373px;
+    margin-bottom: 48px;
+}
+.product__character {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+.product__character img {
+    padding-left: 9px;
+}
+.product__buy {
+    width: 212px;
+    height: 48px;
+    border: 1px solid#FF6A6A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+.product__buy img {
+    padding-right: 23px;
+}
+.product__footer {
+    margin-top: 98px;
+}
