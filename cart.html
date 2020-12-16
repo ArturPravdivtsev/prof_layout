@@ -24,97 +24,56 @@
     </header>
     <section class="breadcrumbs center">
         <div class="breadcrumbs__heading">
-            NEW ARRIVALS
-        </div>
-        <nav class="breadcrumbs__links">
-            <a href="index.html" class="breadcrumbs__link">HOME</a>
-            <span class="breadcrumbs__delimeter"> / </span>
-            <a href="catalog.html" class="breadcrumbs__link">MEN</a>
-            <span class="breadcrumbs__delimeter"> / </span>
-            <a href="catalog.html" class="breadcrumbs__link active">NEW ARRIVALS</a>
-        </nav>
-    </section>
-    <section class="product__item-block">
-        <div class="product__item-arrow left">
-            <svg width="31" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M21.6998 7.7499L13.9498 15.4999L21.6998 23.2499L20.1498 26.3499L9.2998 15.4999L20.1498 4.6499L21.6998 7.7499Z" />
-            </svg>
-        </div>
-        <img src="img/product_item.png" alt="product">
-        <div class="product__item-arrow right">
-            <svg width="31" height="31" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M9.2998 23.2499L17.0498 15.4999L9.2998 7.7499L10.8498 4.6499L21.6998 15.4999L10.8498 26.3499L9.2998 23.2499Z" />
-            </svg>
+            SHOPPING CART
         </div>
     </section>
-    <section class="product__information center">
-        <div class="product__information-wrapper">
-            <div class="product__heading">
-                <div class="product__category">WOMEN COLLECTION</div>
-                <h1>MOSCHINO CHEAP AND CHIC</h1>
+    <section class="cart center">
+        <div class="products__cards">
+            <div class="product__card">
+                <img src="img/catalog_product_3.png" alt="">
+                <div class="product__card-description">
+                    <h2>MANGO PEOPLE<br> T-SHIRT</h2>
+                    <div class="card__card-price">Price: <span>$300</span></div>
+                    <div class="product__card-color">Color: Red</div>
+                    <div class="product__card-size">Size: Xl</div>
+                    <div class="product__card-quantity">Quantity: <input type="number"></div>
+                </div>
+                <img class="product__card-delete" src="img/cross.svg" alt="delete">
             </div>
-            <div class="product__description">
-                Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
-                collaborative architectures before cutting-edge services. Completely visualize parallel core
-                competencies rather than exceptional portals.
+            <div class="product__card">
+                <img src="img/catalog_product_2.png" alt="">
+                <div class="product__card-description">
+                    <h2>MANGO PEOPLE<br> T-SHIRT</h2>
+                    <div class="card__card-price">Price: <span>$300</span></div>
+                    <div class="product__card-color">Color: Red</div>
+                    <div class="product__card-size">Size: Xl</div>
+                    <div class="product__card-quantity">Quantity: <input type="number"></div>
+                </div>
+                <img class="product__card-delete" src="img/cross.svg" alt="delete">
             </div>
-            <div class="product__price">$561</div>
-            <hr class="product__delimeter">
-            <div class="product__characters">
-                <div class="product__character">CHOOSE COLOR<img src="img/arrow.svg" alt="arrow"></div>
-                <div class="product__character">CHOOSE SIZE<img src="img/arrow.svg" alt="arrow"></div>
-                <div class="product__character">QUANTITY<img src="img/arrow.svg" alt="arrow"></div>
+            <div class="buttons-wrapper">
+                <div class="clear-button">CLEAR SHOPPING CART</div>
+                <div class="continue-button">CONTINUE SHOPPING</div>
             </div>
-            <a class="product__buy" href="#">
-                <img src="img/product-buy.svg" alt="cart"> Add to Cart
-            </a>
         </div>
-    </section>
-    <section class="product-block center">
-        <div class="product-content">
-            <div class="product product_mb">
-                <a href="product.html">
-                    <img class="product__img" src="img/catalog_product_1.png" alt="photo product">
-                </a>
-                <a class="product__add" href="#">
-                    <img src="img/product-cart.svg" alt="cart"> Add to Cart
-                </a>
-                <div class="product__info">
-                    <a href="product.html" class="product__name">ELLERY X M'O CAPSULE</a>
-                    <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
-                        of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <div class="product__price">$52.00</div>
+        <div class="product__controls">
+            <form action="#">
+                <h3>SHIPPING ADRESS</h3>
+                <input class="shipping-input" type="text" placeholder="Country">
+                <input class="shipping-input" type="text" placeholder="State">
+                <input class="shipping-input" type="text" placeholder="Postcode / Zip">
+                <input type="submit" value="GET A QUOTE" class="shipping-submit">
+            </form>
+            <div class="product__controls-total-block">
+                <div class="subtotal-block">
+                    SUB TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                        class="subtotal__price">$900</span>
                 </div>
-            </div>
-            <div class="product product_mb">
-                <a href="product.html">
-                    <img class="product__img" src="img/catalog_product_2.png" alt="photo product">
-                </a>
-                <a class="product__add" href="#">
-                    <img src="img/product-cart.svg" alt="cart"> Add to Cart
-                </a>
-                <div class="product__info">
-                    <a href="product.html" class="product__name">ELLERY X M'O CAPSULE</a>
-                    <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
-                        of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <div class="product__price">$52.00</div>
+                <div class="grandtotal-block">
+                    GRAND TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="grandtotal__price">$900</span>
                 </div>
-            </div>
-            <div class="product product_mb">
-                <a href="product.html">
-                    <img class="product__img" src="img/catalog_product_3.png" alt="photo product">
-                </a>
-                <a class="product__add" href="#">
-                    <img src="img/product-cart.svg" alt="cart"> Add to Cart
-                </a>
-                <div class="product__info">
-                    <a href="product.html" class="product__name">ELLERY X M'O CAPSULE</a>
-                    <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
-                        of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <div class="product__price">$52.00</div>
-                </div>
+                <hr>
+                <div class="product__controls-button-wrapper">PROCEED TO CHECKOUT</div>
             </div>
         </div>
     </section>
