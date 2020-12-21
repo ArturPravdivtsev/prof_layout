@@ -13,13 +13,13 @@
 <body>
     <header class="header center">
         <nav class="header__left">
-            <a href=""><img src="img/logo.svg" alt="logo"></a>
-            <a href=""><img class="header__search" src="img/search.svg" alt="search"></a>
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href="#"><img class="header__search" src="img/search.svg" alt="search"></a>
         </nav>
         <nav class="header__right">
-            <a href=""><img src="img/menu.svg" alt="menu"></a>
-            <a href=""><img class="header__cabinet" src="img/cabinet.svg" alt="cabinet"></a>
-            <a href=""><img src="img/cart.svg" alt="cart"></a>
+            <a href="catalog.html"><img src="img/menu.svg" alt="menu"></a>
+            <a href="#"><img class="header__cabinet" src="img/cabinet.svg" alt="cabinet"></a>
+            <a href="cart.html"><img src="img/cart.svg" alt="cart"></a>
         </nav>
     </header>
     <section class="breadcrumbs center">
@@ -27,11 +27,11 @@
             NEW ARRIVALS
         </div>
         <nav class="breadcrumbs__links">
-            <a href="#" class="breadcrumbs__link">HOME</a>
+            <a href="index.html" class="breadcrumbs__link">HOME</a>
             <span class="breadcrumbs__delimeter"> / </span>
-            <a href="#" class="breadcrumbs__link">MEN</a>
+            <a href="catalog.html" class="breadcrumbs__link">MEN</a>
             <span class="breadcrumbs__delimeter"> / </span>
-            <a href="#" class="breadcrumbs__link active">NEW ARRIVALS</a>
+            <a href="catalog.html" class="breadcrumbs__link active">NEW ARRIVALS</a>
         </nav>
     </section>
     <section class="filter-block center">
@@ -48,10 +48,15 @@
                 TRENDING NOW
                 <img src="img/arrow.svg" alt="arrow">
             </div>
-            <div class="sort__item">
-                SIZE
-                <img src="img/arrow.svg" alt="arrow">
-            </div>
+            <details class="sort__item size">
+                <summary>SIZE <img src="img/arrow.svg" alt=""></summary>
+                <div class="sort__size">
+                    <label><input type="checkbox">XS</label>
+                    <label><input type="checkbox">S</label>
+                    <label><input type="checkbox">M</label>
+                    <label><input type="checkbox">L</label>
+                </div>
+            </details>
             <div class="sort__item">
                 PRICE
                 <img src="img/arrow.svg" alt="arrow">
