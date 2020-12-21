@@ -24,59 +24,44 @@
     </header>
     <section class="breadcrumbs center">
         <div class="breadcrumbs__heading">
-            SHOPPING CART
+            REGISTRATION
         </div>
     </section>
-    <section class="cart center">
-        <div class="products__cards">
-            <div class="product__card">
-                <img src="img/catalog_product_3.png" alt="">
-                <div class="product__card-description">
-                    <a href="product.html" class="h2">MANGO PEOPLE<br> T-SHIRT</a>
-                    <div class="card__card-price">Price: <span>$300</span></div>
-                    <div class="product__card-color">Color: Red</div>
-                    <div class="product__card-size">Size: Xl</div>
-                    <div class="product__card-quantity">Quantity: <input type="number"></div>
-                </div>
-                <a href="#"><img class="product__card-delete" src="img/cross.svg" alt="delete"></a>
+    <div class="registration center">
+        <div class="registration-form">
+            <p class="registration-form__label">Your Name</p>
+            <input type="text" name="name" id="name" placeholder="First Name" class="registration-form__input">
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" class="registration-form__input">
+            <div class="registration-form__radio-wrapper">
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
             </div>
-            <div class="product__card">
-                <img src="img/catalog_product_2.png" alt="">
-                <div class="product__card-description">
-                    <a href="product.html" class="h2">MANGO PEOPLE<br> T-SHIRT</a>
-                    <div class="card__card-price">Price: <span>$300</span></div>
-                    <div class="product__card-color">Color: Red</div>
-                    <div class="product__card-size">Size: Xl</div>
-                    <div class="product__card-quantity">Quantity: <input type="number"></div>
-                </div>
-                <a href="#"><img class="product__card-delete" src="img/cross.svg" alt="delete"></a>
-            </div>
-            <div class="buttons-wrapper">
-                <div class="clear-button">CLEAR SHOPPING CART</div>
-                <div class="continue-button">CONTINUE SHOPPING</div>
+            <p class="registration-form__label">Login details</p>
+            <input type="email" name="email" id="email" placeholder="Email" class="registration-form__input">
+            <input type="password" name="pass" id="pass" placeholder="Password" class="registration-form__input">
+            <p class="registration-form__small">Please use 8 or more characters, with at least 1 number and a mixture of
+                uppercase and lowercase letters</p>
+            <div class="registration-form__submit-wrapper">
+                <input type="submit" value="JOIN NOW" class="registration-form__submit">
+                <img src="img/button_arrow.svg" alt="button arrow">
             </div>
         </div>
-        <div class="product__controls">
-            <form action="#">
-                <h3>SHIPPING ADRESS</h3>
-                <input class="shipping-input" type="text" placeholder="Country">
-                <input class="shipping-input" type="text" placeholder="State">
-                <input class="shipping-input" type="text" placeholder="Postcode / Zip">
-                <input type="submit" value="GET A QUOTE" class="shipping-submit">
-            </form>
-            <div class="product__controls-total-block">
-                <div class="subtotal-block">
-                    SUB TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                        class="subtotal__price">$900</span>
-                </div>
-                <div class="grandtotal-block">
-                    GRAND TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="grandtotal__price">$900</span>
-                </div>
-                <hr>
-                <div class="product__controls-button-wrapper">PROCEED TO CHECKOUT</div>
-            </div>
+        <div class="registration-text">
+            <h2 class="registration-text__heading">LOYALTY HAS ITS PERKS</h2>
+            <p class="registration-text__description">Get in on the loyalty program where you can earn points and unlock
+                serious perks. Starting with these as soon as you join:</p>
+            <ul class="registration-text_list">
+                <li class="registration-text_list__item">15% off welcome offer
+                </li>
+                <li class="registration-text_list__item">Free shipping, returns and exchanges on all orders
+                </li>
+                <li class="registration-text_list__item">$10 off a purchase on your birthday
+                </li>
+                <li class="registration-text_list__item">Early access to products</li>
+                <li class="registration-text_list__item">Exclusive offers & rewards</li>
+            </ul>
         </div>
-    </section>
+    </div>
     <footer class="product__footer">
         <div class="subscribe-block">
             <div class="subscribe__inner">
